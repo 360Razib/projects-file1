@@ -1,0 +1,368 @@
+
+
+/* bostsrap css overrite */
+
+
+
+
+
+.menubar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+.menubar ul{
+    display: flex;
+}
+.menubar ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'roboto';
+    color:  #303031;;
+}
+.menubar ul li a:nth-child(1){
+    color: black;
+    font-weight: 700;
+}
+
+.menubar .socialbar span{
+    padding-left: 15px;
+}
+#header-section{
+    position: relative;
+   
+    background-color:#E5E5E5;
+}
+.header-text{
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.speak{
+    color: #EC6437;;
+}
+.header-text h1{
+    font-family: 'poppins';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+.header-text p{
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #666666 ;
+}
+.header-img img{
+    width: 100%;
+    padding-top: 180px;
+}
+.button a .fa-square-up-right{
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.counter{
+    padding-left: 40px;
+}
+.all-counter{
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#counter-section{
+    
+    background: linear-gradient(90deg, #FE935E 0%, #F44845 100%);
+}
+.all-counter{
+    padding-left: 120px;
+}
+.headerimg img{
+    position: absolute;
+    width: 394px;
+    height: 596px;
+    top: 100px;
+    left: 64%;
+
+}
+.all-counter .counter{
+    color: white;
+}
+.counter h3{
+    font-weight: 800;
+    font-family: poppins;
+}
+.brand-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.good-speaker-section{
+    padding-left: 120px;
+}
+.good-speaker-section .left-img{
+    padding: 30px 20px 30px 0px;
+    width: 90%;
+}
+.good-speaker-section .right-img{
+    align-items: center;
+    padding: 30px 20px 30px 30px;
+    width: 60%;
+}
+.good-speaker-section h3{
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+.good-speaker-section p{
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: #666666;
+    text-align: justify;
+}
+#speaker-section{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#motivational-section{
+    background: linear-gradient(90deg, #FE935E 0%, #F44845 100%);
+}
+.motivational-section{
+    color: white;
+}
+.motivational-section h5{
+    font-weight: 600;
+    text-align: justify;
+    padding: 120px 120px 10px 120px;
+}
+.motivational-section p{
+
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 120px 5px 120px;
+}
+.motivational-section span .name{
+    font-size: 10px;
+}
+.motivational-section img{
+    width: 100%;
+    margin-left: 95px;
+}
+.rating ul{
+    display: flex;
+    list-style: none;
+
+}
+.rating ul li{
+    padding: 5px;
+    color: #FFB60A;
+}
+.course-headline{
+    text-align: center;
+    font-weight: bold;
+}
+.lesson-student{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lesson-student i .fa-user{
+    color: #eeff00;
+}
+.success-text{
+    padding: 0px 40px;
+    font-weight: bold;
+    color: #303031;
+}
+.lesson-studen{
+    display: flex;
+    list-style: none;
+}
+.lesson-list{
+    list-style: none;
+}
+.lesson-list li{
+    padding: 10px;
+    color:#F44845;
+
+
+}
+.lesson-list li p{
+    color: black;
+
+
+}
+.text-box{
+    background: linear-gradient(90deg, #FE935E 0%, #F44845 100%);
+    margin-bottom: 42px;
+}
+.box-ratin ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 81px;
+}
+.box-ratin ul li{
+    padding:5px;
+    color: white
+}
+.box-ratin ul li p{
+    color: white
+}
+.box-ratin h5{
+    padding: 7px 90px 0px 90px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.text-section ul{
+ display: flex;
+ list-style: none;
+}
+.text-section ul li{
+    padding-left: 10px;
+    color: #EC6437;
+}
+.text-section ul li h6{
+    color: #303031;
+    font-weight: 700;
+}
+.book-section-head-text{
+    font-weight: 800;
+}
+#book-section{
+    background-color:  #F5F5F5;
+    padding-top: 60px;
+}
+.book-section{
+    padding: 50px 0px;
+}
+.book-text ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+.book-text ul li{
+    padding-left: 10px;
+    color: #EC6437;
+}
+.book-text ul li h6{
+    color: black;
+}
+.book-text{
+    padding-top: 30px;
+}
+.book-text .price{
+    font-size: 40px;
+    
+}
+
+.boy-now ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boy-now li{
+    font-size: 30px;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.button-icon{
+    padding-left: 10px;
+}
+.download-button a{
+    text-decoration: none;
+    border: none;
+    background: #EC6437;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+.download-button{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.employe{
+    display: flex;
+    padding:20px 0px;
+    align-items: center;
+}
+.employe img{
+    width: 20%;
+}
+.employe-text h4{
+    padding-right: 162px;
+    color: #303031;
+}
+#employe-section{
+    padding-top: 80px;
+}
+.blog-post h1{
+    font-weight: bold;
+}
+.blog-post .btn{
+    align-items:flex-end;
+}
+.btn a{
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(90deg, #FE935E 0%, #F44845 100%);
+    color: white;
+    padding: 15px 30px;
+}
+.blog-secton{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+.date{
+    color: #EC6437;
+    padding: 10px 0px;
+}
+#blog-section{
+    padding: 50px 0px;
+}
+.foter-section ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    
+}
+.foter-section ul li{
+    padding: 5px 10px 5px 0px;
+    color: white;
+    font-size: 20px;
+
+}
+.foter-section p{
+    padding: 20px 0px;
+}
+.part-1{
+    padding-right: 80px;
+}
+#footer-section{
+    background: #303031;
+}
+.foter-section p{
+    color: white;
+    
+}
+.foter-section {
+padding: 80px 0px;
+
+}
